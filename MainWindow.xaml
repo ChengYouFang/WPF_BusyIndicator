@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication_Plugin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <xctk:BusyIndicator IsBusy="False" BusyContent="Waiting..." Name="busyIndicator" />
+        <ProgressBar Height="10" HorizontalAlignment="Left" Margin="168,20,0,0" Name="progressBar1" VerticalAlignment="Top" Width="100" />
+        </Grid>
+</Window>

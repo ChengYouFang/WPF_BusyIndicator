@@ -1,2 +1,2 @@
-WPF_BusyIndicator
+WPF BusyIndicator
 =================
